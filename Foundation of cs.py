@@ -58,7 +58,7 @@ def decrypt(private_key, ciphertext, p):
     return m
 
 
-# --- Main Process ---
+# ---Main Process---
 # 1. Key Generation
 public_key, private_key = generate_key_pair()
 print("Public Key:", public_key)
